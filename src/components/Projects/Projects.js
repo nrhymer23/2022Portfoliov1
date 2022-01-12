@@ -9,18 +9,18 @@ const Projects = () => (
     <SectionDivider />
     <SectionTitle main>Projects</SectionTitle>
     <GridContainer>
-      {projects.map((project)=> (
-        <BlogCard key={project.id}>
+      {projects.map(({ id, image, title, description, tags, source, visit })=> (
+        <BlogCard key={id}>
           <Img src={image} />
           <TitleContent>
-            <HeaderThree title >{title}</HeaderThree>
+            <HeaderThree title>{title}</HeaderThree>
             <Hr />
           </TitleContent>
           <CardInfo>{description}</CardInfo>
           <div>
             <TitleContent>Stack</TitleContent>
             <TagList>
-              {Tag.map((tag,i)=> (
+              {tags.map((tag,i)=> (
                 <Tag key={i}>{tag}</Tag>
               ))}
             </TagList>

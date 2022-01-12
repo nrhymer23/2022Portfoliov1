@@ -1,18 +1,19 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiFirebase, DiReact, DiUnitySmall } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
+
 const Technologies = () =>  (
   <Section id="tech">
-    <SectionDivider />
+    <SectionDivider/>
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       I've Worked with a range of technologies in the web development world. From back end to Design
     </SectionText>
     <List>
       <ListItem>
-        <DiReact size="rem" />
+        <DiReact size="3rem" />
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
@@ -22,7 +23,7 @@ const Technologies = () =>  (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size="rem" />
+        <DiFirebase size="3rem" />
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
@@ -32,7 +33,7 @@ const Technologies = () =>  (
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiZend size="rem" />
+        <DiUnitySmall size="3rem" />
         <ListContainer>
           <ListTitle>Unity</ListTitle>
           <ListParagraph>

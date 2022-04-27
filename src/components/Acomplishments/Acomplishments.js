@@ -5,10 +5,11 @@ import { CarouselButtonDot } from '../TimeLine/TimeLineStyles';
 import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 
 const data = [
-  { number: 20, text: 'Open Source Projects'},
-  { number: 1000, text: 'Students', },
-  { number: 1900, text: 'Github Followers', },
-  { number: 5000, text: 'Github Stars', }
+  { number: 15, text: 'Open Source Projects'},
+  { number: 100, text: 'Happy Clients', }
+  // if any are added need to find a way to activate Carousel on accomplishemnts 
+
+  
 ];
 
 const Acomplishments = () => (

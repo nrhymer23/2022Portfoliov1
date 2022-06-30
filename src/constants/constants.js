@@ -13,8 +13,8 @@ export const projects = [
     description:"Ultimate chess is a variation from the traditional chess. it was created in unity and objects programmed in C#. This project developed my ability to created interfaces & UI. It also introduced me to the application of AI",
     image:'/images/uc2.png',
     tags: ['C#', 'Unity'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    source: '',
+    visit: 'https://github.com/nrhymer23/UltimateChess.git',
     id: 1,
   },
   {

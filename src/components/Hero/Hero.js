@@ -12,9 +12,9 @@ const Hero = (props) => (
         My Personal Portfolio
       </SectionTitle>
       <SectionText>
-        The puropse.. Showcase of projects and skills
+        Greetings Im Noel and Ive created a varity of web based Technologies from websites to games. Here is a showcase of some of my projects and skills
       </SectionText>
-      <Button onClick={() => window.location = 'https://google.com'}>Learn More</Button>
+      <Button onClick={() => window.location = '#about'}>Learn More</Button>
     </LeftSection>
   </Section>
 );
